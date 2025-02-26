@@ -7,8 +7,8 @@ public class GestoreParco {
     private ArrayList<Veicolo> listaVeicoli = new ArrayList<>();
     
     
-    public void aggiungiVeicolo(Veicolo listaVeicoli) {
-    	listaVeicoli.add(listaVeicoli);
+    public void aggiungiVeicolo (Veicolo veicolo) {
+    	listaVeicoli.add(veicolo);
     	
     }
     
@@ -19,7 +19,7 @@ public class GestoreParco {
     	}
     	}
     	
-    public double calcoloBolloTotale() {
+    public double calcolaBolloTotale() {
     	double totale = 0;
     	for (Veicolo v : listaVeicoli) {
     		totale += v.CalcolaBollo();

@@ -5,6 +5,7 @@ import com.entita.Auto;
 import com.entita.Camion;
 import com.entita.Moto;
 import com.entita.Veicolo;
+
 import com.service.GestoreParco;
 
 public class Main {
@@ -46,7 +47,6 @@ public class Main {
                     int annoImmatricolazione = scanner.nextInt();
                     scanner.nextLine(); 
 
-                    Veicolo veicolo = null;
 
                     switch (tipoVeicolo) {
                         case 1:
@@ -83,7 +83,7 @@ public class Main {
 
                 case 3:
                    
-                    double bolloTotale = gestoreParco.calcoloBolloTotale();
+                    double bolloTotale = gestoreParco.calcolaBolloTotale();
                     System.out.println("Il bollo totale è: " + bolloTotale);
                     break;
 

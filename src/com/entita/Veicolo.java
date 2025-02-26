@@ -17,7 +17,7 @@ public Veicolo (String targa, String marca, String modello, int anno) {
 
 @Override 
 public String toString() {
-    return "Veicolo [targa=" + targa + ", marca=" + marca + ", modello=" + modello + ", anno=" + anno + "]";
+    return "Veicolo [targa= " + targa + ", marca= " + marca + ", modello= " + modello + ", anno= " + anno + "]";
     		
 }
 
