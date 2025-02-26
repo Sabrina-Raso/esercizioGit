@@ -9,7 +9,7 @@ public class Auto extends Veicolo {
 		
 	}
 
-	@Override
+	//Ciao Sabri	@Override
 	public String toString() {
 		return "Auto [targa=" + targa + ", marca=" + marca + ", modello=" + modello + ", anno=" + anno + ", cilindrata="
 				+ cilindrata + "]";
