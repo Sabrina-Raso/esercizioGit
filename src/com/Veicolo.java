@@ -1,10 +1,10 @@
 package com;
 
 public abstract class Veicolo {
-	String targa;
-	String marca;
-	String modello;
-	int anno;
+	protected String targa;
+	protected String marca;
+	protected String modello;
+	protected int anno;
 	
 	
 public Veicolo (String targa, String marca, String modello, int anno) {
@@ -18,6 +18,7 @@ public Veicolo (String targa, String marca, String modello, int anno) {
 @Override 
 public String toString() {
     return "Veicolo [targa=" + targa + ", marca=" + marca + ", modello=" + modello + ", anno=" + anno + "]";
+    		
 }
 
 public abstract double CalcolaBollo();
