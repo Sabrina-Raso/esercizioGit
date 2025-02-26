@@ -9,11 +9,6 @@ public class Auto extends Veicolo {
 		
 	}
 
-	@Override
-	public String toString() {
-		return "Auto [targa=" + targa + ", marca=" + marca + ", modello=" + modello + ", anno=" + anno + ", cilindrata="
-				+ cilindrata + "]";
-	}
 	
 	@Override
 	public double CalcolaBollo() {

@@ -7,8 +7,8 @@ public class GestoreParco {
     private ArrayList<Veicolo> listaVeicoli = new ArrayList<>();
     
     
-    public void aggiungiVeicolo(Veicolo listaVeicoli) {
-    	listaVeicoli.add(listaVeicoli);
+    public void aggiungiVeicolo(Veicolo veicolo) {
+    	listaVeicoli.add(veicolo);
     	
     }
     

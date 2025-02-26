@@ -16,11 +16,6 @@ public  class Camion extends Veicolo {
 
 	}
     
-    @Override
-	public String toString() {
-		return "Camion [targa=" + targa + ", marca=" + marca + ", modello=" + modello + ", anno=" + anno + ", peso="
-				+ peso + "]";
-	}
-    
+
 	
 }
