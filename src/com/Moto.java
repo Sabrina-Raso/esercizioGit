@@ -32,4 +32,3 @@ public class Moto extends Veicolo {
         return super.toString() + ", Cilindrata: " + cilindrata;
     }
 }
-;
