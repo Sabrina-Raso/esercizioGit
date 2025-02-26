@@ -10,9 +10,10 @@ public class Auto extends Veicolo {
 	}
 
 	
+	
 	@Override
 	public double CalcolaBollo() {
 		return cilindrata * 2.5; 
 		
-	}	//Ciao Sabri
+	}	
 }
