@@ -1,6 +1,7 @@
-package packageService;
-import com.Veicolo;
+package com.service;
 import java.util.ArrayList;
+
+import com.entita.Veicolo;
 
 public class GestoreParco {
     private ArrayList<Veicolo> listaVeicoli = new ArrayList<>();

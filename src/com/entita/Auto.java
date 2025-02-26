@@ -1,4 +1,4 @@
-package com;
+package com.entita;
 
 public class Auto extends Veicolo {
 	public double cilindrata; 
