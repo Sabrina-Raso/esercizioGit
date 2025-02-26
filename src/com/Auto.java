@@ -7,5 +7,5 @@ public class Auto extends Veicolo {
 		
 	}
 
-
+	//Ciao Sabri
 }
