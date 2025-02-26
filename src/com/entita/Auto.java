@@ -1,4 +1,4 @@
-package com;
+package com.entita;
 
 public class Auto extends Veicolo {
 	public double cilindrata; 
@@ -9,7 +9,7 @@ public class Auto extends Veicolo {
 		
 	}
 
-	//Ciao Sabri	@Override
+	@Override
 	public String toString() {
 		return "Auto [targa=" + targa + ", marca=" + marca + ", modello=" + modello + ", anno=" + anno + ", cilindrata="
 				+ cilindrata + "]";
@@ -19,5 +19,5 @@ public class Auto extends Veicolo {
 	public double CalcolaBollo() {
 		return cilindrata * 2.5; 
 		
-	}
+	}	//Ciao Sabri
 }

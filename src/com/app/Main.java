@@ -1,9 +1,10 @@
-package packageService;
+package com.app;
 import java.util.Scanner;
-import com.Auto;
-import com.Veicolo;
-import com.Camion;
-import com.Moto;
+
+import com.entita.Auto;
+import com.entita.Camion;
+import com.entita.Moto;
+import com.entita.Veicolo;
 
 public class Main {
 	Scanner scanner = new Scanner(System.in);

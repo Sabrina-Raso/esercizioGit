@@ -1,4 +1,4 @@
-package com;
+package com.entita;
 
 public abstract class Veicolo {
 	protected String targa;

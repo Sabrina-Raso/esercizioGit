@@ -1,6 +1,4 @@
-package com;
-
-
+package com.entita;
 
 public  class Camion extends Veicolo {
 	public double peso; 
