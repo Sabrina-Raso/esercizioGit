@@ -1,10 +1,10 @@
 package com.entita;
 
 public abstract class Veicolo {
-	protected String targa;
-	protected String marca;
-	protected String modello;
-	protected int anno;
+	 String targa;
+	String marca;
+	 String modello;
+	 int anno;
 	
 	
 public Veicolo (String targa, String marca, String modello, int anno) {
@@ -21,6 +21,7 @@ public String toString() {
     		
 }
 
-public abstract double CalcolaBollo();
-}
+public abstract double CalcolaBollo();{
 
+}
+}
